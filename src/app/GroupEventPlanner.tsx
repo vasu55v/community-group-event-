@@ -1,7 +1,7 @@
 // filepath: f:\assignment 2\community\src\app\GroupEventPlanner.tsx
 "use client";
 
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import { Calendar } from "react-calendar";
 import "react-calendar/dist/Calendar.css";
 import {
@@ -34,10 +34,10 @@ import {
 } from "lucide-react";
 import "react-calendar/dist/Calendar.css";
 import { motion, AnimatePresence } from "framer-motion";
-import { Sun as sunIcon } from "lucide-react";
+// import { Sun as sunIcon } from "lucide-react";
 import { MessageCircle as MessageIcon } from "lucide-react";
-import { Moon as moonIcon } from "lucide-react";
-import { X as xIcon } from "lucide-react";
+// import { Moon as moonIcon } from "lucide-react";
+// import { X as xIcon } from "lucide-react";
 
 // Updated mock users with valid avatar URLs
 const mockUsers = [
